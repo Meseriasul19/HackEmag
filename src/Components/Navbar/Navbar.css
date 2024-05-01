@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(src/assets/fonts/Montserrat-Bold.ttf)
+}
+
+:root{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+
+.mainNav {
+
+    display:flex;
+    flex-direction: row;
+
+    padding: 10px;
+    gap: 50px;
+}
+
+.logo {
+    display:flex;
+    flex-direction: row;
+    color: #38B449;
+    -webkit-text-stroke: 2px black;
+}
+
+.navbar-search {
+    background-color: white;
+    border-radius: 10px;
+    width: 40%;
+}
+
+.favorite {
+    display: flex;
+    flex-direction: row;
+    gap:6px;
+    align-items: center;
+    padding:5px;
+    
+    cursor:pointer;
+    border: none;
+    background: none;
+}
+
+.favorite:hover {
+    border: solid 2px orange;
+    border-radius: 16px;
+}
+
+.favorite:hover .fav-icon {
+    color: #38B449;
+
+}
+
+.cart {
+    display: flex;
+    flex-direction: row;
+    gap:6px;
+    align-items: center;
+    padding: 5px;
+
+    cursor:pointer;
+    border: none;
+    background: none;
+}
+
+.cart:hover {
+    border: solid 2px orange;
+    border-radius: 16px;
+}
+
+.cart:hover .cart-icon {
+    color: #38B449;
+}
+
+.secondNav {
+    background-color: #38B449;
+}
+
+
+.secondNav li {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+    gap: 20px;
+
+}
